@@ -1,7 +1,7 @@
 # ngx_http_image_resize_filter_module
 
 #Description
-image resize  filter module
+nginx+opencv image resize  filter module 
 
 #install 
 1.安装opencv：
