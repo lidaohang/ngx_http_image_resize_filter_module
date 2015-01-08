@@ -1,5 +1,9 @@
 # ngx_http_image_resize_filter_module
 
+#Description
+image resize  filter module
+
+#install 
 1.安装opencv：
 
 a.opencv所依赖的一些包：（部分lib已安装，如需要安装通过yum install libpng,或者自行下载，相关软件放入软件包，此步骤可先省略）
@@ -51,10 +55,10 @@ ldconfig
 
 
 2.安装nginx
-#install 
 ./configure --add-module=module/ngx_http_image_resize_filter_module
 
-配置nginx.conf
+#配置
+nginx.conf
 location / {
 		
 	set $image_resize_width "160";
